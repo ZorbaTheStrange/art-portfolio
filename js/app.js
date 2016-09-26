@@ -4,6 +4,7 @@
   angular
     .module('art', [
         'home',
+        'bourgeois',
         'ui.router'
     ])
     .config([
