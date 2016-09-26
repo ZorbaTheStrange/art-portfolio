@@ -12,14 +12,17 @@
     ]);
 
   function RouterFunction($stateProvider){
-    console.log('welcome');
     $stateProvider
       .state("homeIndex", {
         url: '',
         templateUrl: 'js/home/index.html',
-        controller: 'HomeIndexController',
-        controllerAs: 'vm'
       })
+    .state("bourgeoisIndex", {
+      url:"/bourgeois",
+      templateUrl: 'js/bourgeois/index.html',
+      controller: 'BourgeoisIndexController',
+      controllerAs: 'vm'
+    })
   }
 }());
 

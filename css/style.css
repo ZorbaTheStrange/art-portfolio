@@ -1,0 +1,61 @@
+body{
+  height: 100%;
+  width: 100%;
+}
+
+/* ==== HOME START ==== */ 
+.home-wrapper {
+  margin: 0;
+  background: url('/images/shotgun/O.G.two.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+
+.title {
+  margin-top: 1.5em;
+  font-family: Courier New;
+  font-size: 350%;
+  text-align: center;
+  color: white;
+}
+
+.art-option-menu {
+  text-align: center;
+  margin: 0 auto;
+  font-family: Courier New;
+  color: white;
+}
+
+.thumbnail-image {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 5%;
+}
+
+/* ==== HOME END ==== */
+
+/* ==== GLOBAL ==== */ 
+.black-veil {
+  background-color: rgba(0,0,0,.5);
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  height: 15em;
+  width: 15em;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+

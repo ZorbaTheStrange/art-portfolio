@@ -8,7 +8,7 @@
     ]);
 
   function HomeIndexController(){
-    console.log('Hello Home Controller');
+    
   }
 }());
 
