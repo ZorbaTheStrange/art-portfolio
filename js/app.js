@@ -5,6 +5,8 @@
     .module('art', [
         'home',
         'bourgeois',
+        'oddgauge',
+        'poster',
         'ui.router'
     ])
     .config([
@@ -20,9 +22,21 @@
       })
     .state("bourgeoisIndex", {
       url:"/bourgeois",
-      templateUrl: 'js/bourgeois/index.html',
+      templateUrl: 'js/index.html',
       controller: 'BourgeoisIndexController',
       controllerAs: 'vm'
+    })
+    .state("oddgaugeIndex", {
+      url:"/oddgauge",
+      templateUrl: 'js/index.html',
+      controller: 'OddgaugeIndexController',
+      controllerAs: 'vm'
+    })
+    .state("posterIndex", {
+      url: "/poster",
+      templateUrl: "js/index.html",
+      controller: "PosterIndexController",
+      conrollerAs: "vm"
     })
   }
 }());

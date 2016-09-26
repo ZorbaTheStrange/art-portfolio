@@ -1,16 +1,21 @@
 body{
   height: 100%;
   width: 100%;
+  background-image: url("https://a2ua.com/wall/wall-004.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* ==== HOME START ==== */ 
 .home-wrapper {
   margin: 0;
-  background: url('/images/shotgun/O.G.two.jpg');
-  background-size: cover;
   height: 100vh;
   width: 100vw;
   position: fixed;
+  background: url('/images/oddgauge/O.G.two.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .title {
@@ -42,61 +47,73 @@ body{
 
 /* ==== HOME END ==== */
 
-/* ==== BOURGEOIS START ==== */ 
-
-.bourgeois-wrapper {
-  height: 100vh;
-  max-width: 100vw;
-}
+/* ==== ART PAGES START ==== */ 
 
 .flex-wrap {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 100vw;
+  align-items: flex-start;
 }
 
-.bourgeois-thumbnail-image {
+.art-thumbnail-image {
   height: auto;
-  max-width: 45%;
+  max-width: 80%;
   margin: 0 1em;
   display: inline;
+  border-radius: 5%;
 }
 
-.bourgeois-image-title {
+.image-title {
+  border-radius: 5%;
   margin: 0;
   font-family: Courier New;
   text-align: center;
   position: absolute;
   visibility: none;
   top: 0;
-  left: .5em;
+  left: 1.5em;
   z-index: 1;
   opacity: 0;
   color: white;
-  background: rgba(0, 0, 0, .6);
+  background: rgba(0, 0, 0, .4);
   height: 100%;
-  width: 45%;
+  width: 81%;
   padding-top: 10%;
   font-size: 250%;
   box-sizing: border-box;
 }
 
 .image-title-wrapper {
+  margin-top: 1em;
   position: relative;
-  width: 100vw;
+  text-align: center;
 }
 
-.image-title-wrapper:hover .bourgeois-image-title {
+.image-title-wrapper:hover .image-title {
   visibility: visible;
   opacity: 1;
 }
 
+/* ==== BOURGEOIS END ==== */ 
+
 /* ==== GLOBAL ==== */ 
+.page-wrapper {
+  height: 100vh;
+  max-width: 100vw;
+}
+
 .black-veil {
   background-color: rgba(0,0,0,.5);
   position: fixed;
-  height: 100vh;
+  height: 100%;
+  margin: 0;
   width: 100vw;
+}
+
+nav {
+  position: fixed;
 }
 
 .flex-row {
@@ -114,4 +131,8 @@ body{
 
 a {
   text-decoration: none;
+}
+
+.page-wrapper .ng-scope {
+  max-width: 50%;
 }

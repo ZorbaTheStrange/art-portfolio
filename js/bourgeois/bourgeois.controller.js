@@ -10,47 +10,47 @@
 
     function BourgeoisIndexController($scope){
       $scope.art = [{
-        path: "ABC's and an AK Please.jpg",
+        path: "bourgeois/ABC's and an AK Please.jpg",
         title: "ABC's and an AK Please",
       },
       {
-        path: "Cannibal Kid.jpg",
+        path: "bourgeois/Cannibal Kid.jpg",
         title: "Cannibal Kid",
       },
       {
-        path: "God Of Wine.jpg",
+        path: "bourgeois/God Of Wine.jpg",
         title: "God Of Wine",
       },
       {
-        path: "Home Mirror.jpg", 
+        path: "bourgeois/Home Mirror.jpg", 
         title: "Home Mirror",
       },
       {
-        path: "Just Wanted To Say Hello.jpg",
+        path: "bourgeois/Just Wanted To Say Hello.jpg",
         title: "Just Wanted To Say Hello",
       },
       {
-        path: "King's Mirror.jpg",
+        path: "bourgeois/King's Mirror.jpg",
         title: "King's Mirror",
       },
       {
-        path: "Liberia Mantra.jpg",
+        path: "bourgeois/Liberia Mantra.jpg",
         title: "Liberia Mantra",
       },
       {
-        path: "MarshMellow Queen.jpg",
+        path: "bourgeois/MarshMellow Queen.jpg",
         title: "MarshMellow Queen",
       },
       {
-        path: "Pink Tutus and Automatica Weapons.jpg",
+        path: "bourgeois/Pink Tutus and Automatica Weapons.jpg",
         title: "Pink Tutus and Automatica Weapons",
       },
       {
-        path: "PolyMathic Beauty.jpg",
+        path: "bourgeois/PolyMathic Beauty.jpg",
         title: "PolyMathic Beauty",
       },
       {
-        path: "Russian King.jpg",
+        path: "bourgeois/Russian King.jpg",
         title: "Russian King",
       }]
     }
