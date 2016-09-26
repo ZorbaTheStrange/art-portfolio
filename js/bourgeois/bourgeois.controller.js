@@ -10,7 +10,7 @@
 
     function BourgeoisIndexController($scope){
       $scope.art = [{
-        path: "bourgeois/ABC's and an AK Please.jpg",
+        path: "/art-portfolio-angularjs/bourgeois/ABC's and an AK Please.jpg",
         title: "ABC's and an AK Please",
       },
       {
